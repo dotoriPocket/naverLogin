@@ -1,8 +1,7 @@
-import "./main.css";
+// import "./main.css";
 
-const main_box = document.createElement("div");
+// const main_box = document.createElement("div");
 
-main_box.setAttribute("class", "main_box");
+// main_box.setAttribute("class", "main_box");
 
-
-export default main_box;
+// export default main_box;

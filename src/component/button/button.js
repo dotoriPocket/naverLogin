@@ -6,8 +6,9 @@ function btnText(text) {
     btn.setAttribute("class", "btn");
     btn.innerText = text;
   
-    btn.addEventListener("click", () => {
-        
+    // 이벤트 핸들러가 길어지면 따로 함수로 만들어서 넣어주세요~ handleButtonClick 같은 함수로 빼면 더 가독성 있을듯~!
+    // 보통 탭이 3칸씩 들어가면 뭔가 이상한데? 라고 생각하면 좋음
+    function handleButtonClick() {
         let idValue = document.getElementById("id_input").value;
         let pwValue = document.getElementById("pw_input").value;
         
@@ -21,9 +22,9 @@ function btnText(text) {
         else {
             failMessage.innerText = "아이디 또는 비밀번호를 확인하세요";
         }
+    }
 
-        
-    })
+    btn.addEventListener("click", handleButtonClick);
 
     return btn;
 }

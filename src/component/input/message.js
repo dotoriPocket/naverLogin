@@ -1,7 +1,13 @@
 import "./message.css";
 
-let alertMessage = document.createElement("p");
+function message() {
+    const alertMessage = document.createElement("p"); // let 대신 const!
 
-alertMessage.setAttribute("class", "alert_message");
+    alertMessage.setAttribute("class", "alert_message");    
 
-export default alertMessage;
+    return alertMessage;
+}
+
+
+
+export default message;
