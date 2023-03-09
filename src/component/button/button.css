@@ -1,0 +1,19 @@
+.btn {
+    width: 573px;
+    height: 76px;
+    background-color: #00C059;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 1px 8px 0.3px rgba(0, 0, 0, 0.2);
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 38px;
+}
