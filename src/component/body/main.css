@@ -17,13 +17,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.tap_box {
-    width: 218px;
-    height: 75px;
-    margin: 0px;
-
-    border: 2px solid #BFBFBF;
-    border-radius: 8px;
-    
-}

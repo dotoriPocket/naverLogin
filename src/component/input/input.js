@@ -15,18 +15,21 @@ function inputBox(type) {
     pwImg.setAttribute("class", "img2");
     
     input_box.setAttribute("class", "input_box");
-    
+
     input.setAttribute("class", "input");
+    input.setAttribute("value", "");
     
     
     if(type === "ID") {
         input_box.classList.add("input_margin");
+        input.setAttribute("id", "id_input");
         input_box.appendChild(idImg);
         input_box.appendChild(input);
         input.placeholder = "아이디";
     }
     else if(type === "PW") {
         input.setAttribute("type", "password");
+        input.setAttribute("id", "pw_input");
         input_box.appendChild(pwImg);
         input_box.appendChild(input);
         input.placeholder = "비밀번호";
